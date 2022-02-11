@@ -6,7 +6,7 @@ public class CommonFunctionHRM {
 	
 	private static final String ALPHA_NUMERIC_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	
-
+//data
 	public static void enterText(WebElement locaElement, String value)
 	{
 		locaElement.sendKeys(value);
